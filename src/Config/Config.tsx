@@ -1,0 +1,10 @@
+export type clientModeType = 0 | 1
+export const clientModeList = [0,1] as const
+export const clientModeDefault = 0
+export type clientLangType = "ko"|"en"
+export const clientLangList = ["ko", "en"] as const
+export type clientThemeType = "system"|"light"|"dark"
+export const clientThemeList = ["system","light","dark"] as const
+export const clientThemeDefault = "system"
+export const pcMode = 0
+export const mobileMode = 1
